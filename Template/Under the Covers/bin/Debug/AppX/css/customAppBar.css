@@ -1,0 +1,75 @@
+﻿/* Scenario styles */
+/* Color customization */
+/* Set the separator color */
+.win-appbar.customColor hr.win-command {
+    background-color: rgb(230,230,230);
+}
+/* Set the background color */
+.win-appbar.customColor {
+    /* Set the AppBar background color */
+    background-color: rgb(23, 23, 23);
+}
+.win-appbar.customColor button:hover:active .win-commandimage,
+.win-appbar.customColor button[aria-checked=true] .win-commandimage {
+    /* Set the pressed state command icon to the same color as the AppBar background */
+    color: rgb(180, 180, 180);
+}
+/* Set the foreground color */
+.win-appbar.customColor .win-label {
+    color: rgb(230, 230, 230);
+}
+.win-appbar.customColor button.win-command:focus {
+    outline-color: rgb(230, 230, 230);
+}
+.win-appbar.customColor button:disabled .win-label,
+.win-appbar.customColor button:disabled:active .win-label,
+.win-appbar.customColor button:disabled:active:hover .win-label {
+    color: rgba(230, 230, 230, 0.49);
+}
+.win-appbar.customColor .win-commandimage {
+    color: rgb(230, 230, 230);
+}
+.win-appbar.customColor button:disabled .win-commandimage,
+.win-appbar.customColor button:hover:active:disabled .win-commandimage {
+    color: rgba(230, 230, 230, 0.49);
+}
+.win-appbar.customColor button[aria-checked=true]:hover .win-commandimage, 
+.win-appbar.customColor button[aria-checked=true]:active .win-commandimage,
+.win-appbar.customColor button[aria-checked=true]:hover:active .win-commandimage {
+    color: rgb(230, 230, 230);
+}
+.win-appbar.customColor .win-commandring {
+    border-color: rgb(230, 230, 230);
+}
+.win-appbar.customColor button:hover .win-commandring, 
+.win-appbar.customColor button:active .win-commandring {
+    background-color: rgba(230, 230, 230, 0.13);
+    border-color: rgb(230, 230, 230);
+}
+.win-appbar.customColor button:hover:active .win-commandring {
+    background-color: rgb(230, 230, 230);
+    border-color: rgb(230, 230, 230);
+}
+.win-appbar.customColor button:disabled .win-commandring, 
+.win-appbar.customColor button:disabled:hover:active .win-commandring {
+    background-color: transparent;
+    border-color: rgba(230, 230, 230, 0.49);
+}
+.win-appbar.customColor button[aria-checked=true] .win-commandring {
+    background-color: rgb(230, 230, 230);
+    border-color: rgb(230, 230, 230);
+}
+.win-appbar.customColor button[aria-checked=true]:hover .win-commandring,
+.win-appbar.customColor button[aria-checked=true]:active .win-commandring {
+    background-color: rgba(230, 230, 230, 0.13);
+    border-color: rgb(230, 230, 230);
+}
+.win-appbar.customColor button[aria-checked=true]:hover:active .win-commandring {
+    background-color: transparent;
+    border-color: rgb(230, 230, 230);
+}
+.win-appbar.customColor button[aria-checked=true]:disabled .win-commandring, 
+.win-appbar.customColor button[aria-checked=true]:disabled:hover:active .win-commandring {
+    background-color: rgb(230, 230, 230);
+    border-color: rgb(230, 230, 230);
+}

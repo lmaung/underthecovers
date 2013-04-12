@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LM-T420</Machine>
+    <WindowsUser>Lwin</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\css\customAppBar.css">
+      <PackagePath>css\customAppBar.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\about\about.css">
+      <PackagePath>pages\about\about.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\contactDeveloper\contactDeveloper.css">
+      <PackagePath>pages\contactDeveloper\contactDeveloper.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\cssPage\cssPage.css">
+      <PackagePath>pages\cssPage\cssPage.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\demoPage\demoPage.css">
+      <PackagePath>pages\demoPage\demoPage.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\htmlPage\htmlPage.css">
+      <PackagePath>pages\htmlPage\htmlPage.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\jsPage\jsPage.css">
+      <PackagePath>pages\jsPage\jsPage.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\privacy\privacy.css">
+      <PackagePath>pages\privacy\privacy.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_css3.png">
+      <PackagePath>images\appbar_css3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_css3.scale-140.png">
+      <PackagePath>images\appbar_css3.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_css3.scale-180.png">
+      <PackagePath>images\appbar_css3.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_home.png">
+      <PackagePath>images\appbar_home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_home.scale-140.png">
+      <PackagePath>images\appbar_home.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_home.scale-180.png">
+      <PackagePath>images\appbar_home.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_html5.png">
+      <PackagePath>images\appbar_html5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_html5.scale-140.png">
+      <PackagePath>images\appbar_html5.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_html5.scale-180.png">
+      <PackagePath>images\appbar_html5.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_js.png">
+      <PackagePath>images\appbar_js.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_js.scale-140.png">
+      <PackagePath>images\appbar_js.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_js.scale-180.png">
+      <PackagePath>images\appbar_js.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\Logo.scale-100.png">
+      <PackagePath>images\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\Logo.scale-140.png">
+      <PackagePath>images\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\Logo.scale-180.png">
+      <PackagePath>images\Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\Logo.scale-80.png">
+      <PackagePath>images\Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\pageCurlTop.png">
+      <PackagePath>images\pageCurlTop.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\SplashScreen.scale-140.png">
+      <PackagePath>images\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\SplashScreen.scale-180.png">
+      <PackagePath>images\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\widelogo.scale-100.png">
+      <PackagePath>images\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\WideLogo.scale-140.png">
+      <PackagePath>images\WideLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\WideLogo.scale-180.png">
+      <PackagePath>images\WideLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\images\WideLogo.scale-80.png">
+      <PackagePath>images\WideLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\js\jquery-1.8.3.min.js">
+      <PackagePath>js\jquery-1.8.3.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\about\about.js">
+      <PackagePath>pages\about\about.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\contactDeveloper\contactDeveloper.js">
+      <PackagePath>pages\contactDeveloper\contactDeveloper.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\cssPage\cssPage.js">
+      <PackagePath>pages\cssPage\cssPage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\demoPage\demoPage.js">
+      <PackagePath>pages\demoPage\demoPage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\htmlPage\htmlPage.js">
+      <PackagePath>pages\htmlPage\htmlPage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\jsPage\jsPage.js">
+      <PackagePath>pages\jsPage\jsPage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\privacy\privacy.js">
+      <PackagePath>pages\privacy\privacy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\about\about.html">
+      <PackagePath>pages\about\about.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\contactDeveloper\contactDeveloper.html">
+      <PackagePath>pages\contactDeveloper\contactDeveloper.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\cssPage\cssPage.html">
+      <PackagePath>pages\cssPage\cssPage.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\demoPage\demoPage.html">
+      <PackagePath>pages\demoPage\demoPage.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\htmlPage\htmlPage.html">
+      <PackagePath>pages\htmlPage\htmlPage.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\jsPage\jsPage.html">
+      <PackagePath>pages\jsPage\jsPage.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\pages\privacy\privacy.html">
+      <PackagePath>pages\privacy\privacy.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

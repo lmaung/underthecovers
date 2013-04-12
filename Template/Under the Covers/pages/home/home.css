@@ -1,0 +1,28 @@
+﻿.homepage section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.centerScreen {
+    width:75%;
+    height:40%;
+    border:1px solid #222;
+    box-shadow: rgba(128, 128, 128,.5) 5px 5px 10px;
+    padding:2%;
+    font-size:1.25em;
+    text-align:justify;
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .homepage section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .homepage section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}

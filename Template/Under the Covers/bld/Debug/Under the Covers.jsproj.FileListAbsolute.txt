@@ -1,0 +1,13 @@
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bin\Debug\resources.pri
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bin\Debug\AppxManifest.xml
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bin\Debug\Under the Covers.build.appxrecipe
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\priconfig.xml.intermediate
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\layout.resfiles.intermediate
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\resources.resfiles.intermediate
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\pri.resfiles.intermediate
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\priconfig.xml
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\layout.resfiles
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\resources.resfiles
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\pri.resfiles
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\LanguageQualifiers.txt
+C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\ProjectArchitectures.txt
