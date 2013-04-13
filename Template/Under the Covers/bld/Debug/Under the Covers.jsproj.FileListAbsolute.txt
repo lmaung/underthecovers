@@ -11,3 +11,29 @@ C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the C
 C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\pri.resfiles
 C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\LanguageQualifiers.txt
 C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bld\Debug\ProjectArchitectures.txt
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bin\Debug\resources.pri
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bin\Debug\AppxManifest.xml
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bin\Debug\Under the Covers.build.appxrecipe
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bld\Debug\priconfig.xml.intermediate
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bld\Debug\layout.resfiles.intermediate
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bld\Debug\resources.resfiles.intermediate
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bld\Debug\pri.resfiles.intermediate
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bld\Debug\priconfig.xml
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bld\Debug\layout.resfiles
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bld\Debug\resources.resfiles
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bld\Debug\pri.resfiles
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bld\Debug\LanguageQualifiers.txt
+C:\Data\Version Controlled\Personal\underthecovers\Template\Under the Covers\bld\Debug\ProjectArchitectures.txt
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bin\Debug\resources.pri
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bin\Debug\AppxManifest.xml
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bin\Debug\Under the Covers.build.appxrecipe
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bld\Debug\priconfig.xml.intermediate
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bld\Debug\layout.resfiles.intermediate
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bld\Debug\resources.resfiles.intermediate
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bld\Debug\pri.resfiles.intermediate
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bld\Debug\priconfig.xml
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bld\Debug\layout.resfiles
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bld\Debug\resources.resfiles
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bld\Debug\pri.resfiles
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bld\Debug\LanguageQualifiers.txt
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bld\Debug\ProjectArchitectures.txt

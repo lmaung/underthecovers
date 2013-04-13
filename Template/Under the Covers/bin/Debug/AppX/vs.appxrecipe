@@ -13,251 +13,251 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-04-09T09:17:56.041</Modified>
+      <Modified>2013-04-12T00:41:30.468</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\css\customAppBar.css">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\customAppBar.css">
       <PackagePath>css\customAppBar.css</PackagePath>
       <Modified>2013-04-04T17:15:00.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\css\default.css">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\default.css">
       <PackagePath>css\default.css</PackagePath>
       <Modified>2013-04-09T06:29:29.648</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\about\about.css">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\about\about.css">
       <PackagePath>pages\about\about.css</PackagePath>
       <Modified>2013-04-04T04:39:35.608</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\contactDeveloper\contactDeveloper.css">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\contactDeveloper\contactDeveloper.css">
       <PackagePath>pages\contactDeveloper\contactDeveloper.css</PackagePath>
-      <Modified>2013-04-04T05:42:25.633</Modified>
+      <Modified>2013-04-10T03:25:38.718</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\cssPage\cssPage.css">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\cssPage\cssPage.css">
       <PackagePath>pages\cssPage\cssPage.css</PackagePath>
       <Modified>2013-04-05T00:55:27.069</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\home\home.css">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
       <Modified>2013-04-05T06:38:57.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\demoPage\demoPage.css">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\demoPage\demoPage.css">
       <PackagePath>pages\demoPage\demoPage.css</PackagePath>
       <Modified>2013-04-05T04:15:22.313</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\htmlPage\htmlPage.css">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\htmlPage\htmlPage.css">
       <PackagePath>pages\htmlPage\htmlPage.css</PackagePath>
       <Modified>2013-04-05T04:08:44.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\jsPage\jsPage.css">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\jsPage\jsPage.css">
       <PackagePath>pages\jsPage\jsPage.css</PackagePath>
       <Modified>2013-04-05T04:13:29.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\privacy\privacy.css">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\privacy\privacy.css">
       <PackagePath>pages\privacy\privacy.css</PackagePath>
       <Modified>2013-04-04T05:09:04.604</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_css3.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_css3.png">
       <PackagePath>images\appbar_css3.png</PackagePath>
       <Modified>2013-04-04T18:04:53.796</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_css3.scale-140.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_css3.scale-140.png">
       <PackagePath>images\appbar_css3.scale-140.png</PackagePath>
       <Modified>2013-04-04T18:04:38.837</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_css3.scale-180.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_css3.scale-180.png">
       <PackagePath>images\appbar_css3.scale-180.png</PackagePath>
       <Modified>2013-04-04T18:04:19.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_home.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_home.png">
       <PackagePath>images\appbar_home.png</PackagePath>
       <Modified>2013-04-04T17:27:42.621</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_home.scale-140.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_home.scale-140.png">
       <PackagePath>images\appbar_home.scale-140.png</PackagePath>
       <Modified>2013-04-04T18:07:32.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_home.scale-180.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_home.scale-180.png">
       <PackagePath>images\appbar_home.scale-180.png</PackagePath>
       <Modified>2013-04-04T17:27:12.885</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_html5.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_html5.png">
       <PackagePath>images\appbar_html5.png</PackagePath>
       <Modified>2013-04-04T18:05:11.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_html5.scale-140.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_html5.scale-140.png">
       <PackagePath>images\appbar_html5.scale-140.png</PackagePath>
       <Modified>2013-04-04T18:06:38.839</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_html5.scale-180.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_html5.scale-180.png">
       <PackagePath>images\appbar_html5.scale-180.png</PackagePath>
       <Modified>2013-04-04T18:05:38.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_js.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_js.png">
       <PackagePath>images\appbar_js.png</PackagePath>
       <Modified>2013-04-04T17:55:18.112</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_js.scale-140.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_js.scale-140.png">
       <PackagePath>images\appbar_js.scale-140.png</PackagePath>
       <Modified>2013-04-04T17:54:59.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\appbar_js.scale-180.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_js.scale-180.png">
       <PackagePath>images\appbar_js.scale-180.png</PackagePath>
       <Modified>2013-04-04T17:54:43.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\Logo.scale-100.png">
       <PackagePath>images\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T02:14:11.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\Logo.scale-140.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\Logo.scale-140.png">
       <PackagePath>images\Logo.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T02:12:33.565</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\Logo.scale-180.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\Logo.scale-180.png">
       <PackagePath>images\Logo.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T02:12:15.879</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\Logo.scale-80.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\Logo.scale-80.png">
       <PackagePath>images\Logo.scale-80.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T02:13:03.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\pageCurlTop.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\pageCurlTop.png">
       <PackagePath>images\pageCurlTop.png</PackagePath>
       <Modified>2013-04-09T04:14:17.584</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-02-14T01:24:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\splashscreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T02:36:36.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\SplashScreen.scale-140.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\SplashScreen.scale-140.png">
       <PackagePath>images\SplashScreen.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T02:36:17.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\SplashScreen.scale-180.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\SplashScreen.scale-180.png">
       <PackagePath>images\SplashScreen.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T02:35:45.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-02-14T01:24:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\widelogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\widelogo.scale-100.png">
       <PackagePath>images\widelogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T01:42:54.673</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\WideLogo.scale-140.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\WideLogo.scale-140.png">
       <PackagePath>images\WideLogo.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T01:57:20.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\WideLogo.scale-180.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\WideLogo.scale-180.png">
       <PackagePath>images\WideLogo.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T01:56:51.531</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\images\WideLogo.scale-80.png">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\WideLogo.scale-80.png">
       <PackagePath>images\WideLogo.scale-80.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T01:57:42.614</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\js\default.js">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\default.js">
       <PackagePath>js\default.js</PackagePath>
       <Modified>2013-04-04T05:42:50.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\js\jquery-1.8.3.min.js">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\jquery-1.8.3.min.js">
       <PackagePath>js\jquery-1.8.3.min.js</PackagePath>
       <Modified>2013-04-05T05:50:25.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\js\navigator.js">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
       <Modified>2013-04-02T00:32:20.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\about\about.js">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\about\about.js">
       <PackagePath>pages\about\about.js</PackagePath>
       <Modified>2013-04-03T02:54:37.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\contactDeveloper\contactDeveloper.js">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\contactDeveloper\contactDeveloper.js">
       <PackagePath>pages\contactDeveloper\contactDeveloper.js</PackagePath>
-      <Modified>2013-04-04T05:43:10.520</Modified>
+      <Modified>2013-04-10T20:30:30.557</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\cssPage\cssPage.js">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\cssPage\cssPage.js">
       <PackagePath>pages\cssPage\cssPage.js</PackagePath>
-      <Modified>2013-04-05T04:05:06.260</Modified>
+      <Modified>2013-04-11T01:36:24.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\home\home.js">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2013-04-09T04:15:20.153</Modified>
+      <Modified>2013-04-11T01:36:00.131</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\demoPage\demoPage.js">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\demoPage\demoPage.js">
       <PackagePath>pages\demoPage\demoPage.js</PackagePath>
-      <Modified>2013-04-05T04:14:48.265</Modified>
+      <Modified>2013-04-11T01:36:05.858</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\htmlPage\htmlPage.js">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\htmlPage\htmlPage.js">
       <PackagePath>pages\htmlPage\htmlPage.js</PackagePath>
-      <Modified>2013-04-05T04:09:45.473</Modified>
+      <Modified>2013-04-11T01:36:12.604</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\jsPage\jsPage.js">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\jsPage\jsPage.js">
       <PackagePath>pages\jsPage\jsPage.js</PackagePath>
-      <Modified>2013-04-05T05:29:47.919</Modified>
+      <Modified>2013-04-11T01:35:43.949</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\privacy\privacy.js">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\privacy\privacy.js">
       <PackagePath>pages\privacy\privacy.js</PackagePath>
       <Modified>2013-04-03T02:56:37.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\about\about.html">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\about\about.html">
       <PackagePath>pages\about\about.html</PackagePath>
-      <Modified>2013-04-10T00:12:20.405</Modified>
+      <Modified>2013-04-11T02:10:24.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\contactDeveloper\contactDeveloper.html">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\contactDeveloper\contactDeveloper.html">
       <PackagePath>pages\contactDeveloper\contactDeveloper.html</PackagePath>
-      <Modified>2013-04-04T16:38:58.889</Modified>
+      <Modified>2013-04-10T20:29:05.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\cssPage\cssPage.html">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\cssPage\cssPage.html">
       <PackagePath>pages\cssPage\cssPage.html</PackagePath>
-      <Modified>2013-04-09T06:30:34.050</Modified>
+      <Modified>2013-04-11T01:35:36.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\home\home.html">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2013-04-09T06:31:32.279</Modified>
+      <Modified>2013-04-11T01:35:36.128</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\default.html">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\default.html">
       <PackagePath>default.html</PackagePath>
       <Modified>2013-04-03T02:50:56.010</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\demoPage\demoPage.html">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\demoPage\demoPage.html">
       <PackagePath>pages\demoPage\demoPage.html</PackagePath>
-      <Modified>2013-04-09T06:30:59.853</Modified>
+      <Modified>2013-04-11T01:35:36.170</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\htmlPage\htmlPage.html">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\htmlPage\htmlPage.html">
       <PackagePath>pages\htmlPage\htmlPage.html</PackagePath>
-      <Modified>2013-04-09T06:30:34.043</Modified>
+      <Modified>2013-04-11T01:35:36.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\jsPage\jsPage.html">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\jsPage\jsPage.html">
       <PackagePath>pages\jsPage\jsPage.html</PackagePath>
-      <Modified>2013-04-09T06:30:34.033</Modified>
+      <Modified>2013-04-11T01:35:36.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\pages\privacy\privacy.html">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\privacy\privacy.html">
       <PackagePath>pages\privacy\privacy.html</PackagePath>
-      <Modified>2013-04-04T16:15:39.017</Modified>
+      <Modified>2013-04-10T00:34:09.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lwin\documents\visual studio 2012\Projects\Under the Covers\Under the Covers\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2013-04-09T04:16:17.788</Modified>
     </AppxPackagedFile>

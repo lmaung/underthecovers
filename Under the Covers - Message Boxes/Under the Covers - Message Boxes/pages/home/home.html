@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>homePage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="home.css" rel="stylesheet" />
+    <script src="home.js"></script>
+</head>
+<body>
+    <div class="homepage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class=" titlearea pagetitle win-type-ellipsis">Under the Covers</h1>
+            <h2 class="pagesubtitle win-type-ellipsis">Message Boxes</h2>
+            <img id="imgPageCurl" class="pagesubtitle pageCurlImage" src="/images/pageCurlTop.png"/>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div class="centerScreen">
+               The first item that developer normally need for developing or testing an app is a way to display information back to the user interface. Typically, we use <code>messagebox.show</code> or <code>alert</code> to prompt a display. <br /><br />
+               In the case of Windows 8, afore mentioned methods can no longer be used since Windows 8 expect the prompts to be handled seperately thus, freeing the UI or core app to continue on.<br /><br />
+               Normally, in the cases where UI code is different from a seperate portions of codes where another activity is taking place (in our case, message box), we have to create a seperate thread and display that accordingly.<br /><br />
+               In Windows 8, built in ASYNC and AWAIT will take care of creating, and monitoring seperate threads and processes.
+            </div>
+        </section>
+    </div>
+
+    <!-- Create AppBar -->
+    <!-- BEGINTEMPLATE: Template code for an AppBar -->
+    <div class="customColor" id="homeAppBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdAdd',
+            label:'Add',
+            icon:'\uE107',
+            section:'global',
+            tooltip:'Add item'}">
+        </button>
+        <hr data-win-control="WinJS.UI.AppBarCommand" data-win-options="{type:'separator',section:'global'}" />-->
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdHomePage',
+            label:'Demo',
+            icon:'url(images/appbar_home.png)',
+            section:'global',
+            tooltip:'Under the Covers'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowHTML',
+            label:'HTML',
+            icon:'url(images/appbar_html5.png)',
+            section:'selection',
+            tooltip:'Show HTML Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowCSS',
+            label:'CSS',
+            icon:'url(images/appbar_css3.png)',
+            section:'selection',
+            tooltip:'Show CSS Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowJS',
+            label:'JavaScript',
+            icon:'url(images/appbar_js.png)',
+            section:'selection',
+            tooltip:'Show JavaScript Code'}">
+        </button>
+    </div>
+    <!-- ENDTEMPLATE -->
+
+</body>
+</html>

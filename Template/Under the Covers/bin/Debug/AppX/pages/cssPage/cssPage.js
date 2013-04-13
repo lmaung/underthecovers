@@ -10,6 +10,9 @@
     WinJS.UI.Pages.define("/pages/cssPage/cssPage.html", {
 
         ready: function (element, options) {
+            var imgPgCurl = document.getElementById("imgPageCurl");
+            imgPgCurl.addEventListener("click", cmdShowAppBar, false);
+
             var HTMLPage = document.getElementById("cmdShowHTML");
             HTMLPage.addEventListener("click", doCmdHTMLPage, false);
 
@@ -35,6 +38,10 @@
         }
     });
     //CODE GOES HERE
+    function cmdShowAppBar() {
+        document.getElementById('cssAppBar').winControl.show();
+    }
+
     function doCmdHTMLPage() {
         WinJS.Navigation.navigate("/pages/htmlPage/htmlPage.html");
     }

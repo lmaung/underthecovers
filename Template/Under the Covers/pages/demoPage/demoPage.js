@@ -1,8 +1,6 @@
 ﻿// For an introduction to the Page Control template, see the following documentation:
 // http://go.microsoft.com/fwlink/?LinkId=232511
 
-
-
 (function () {
     "use strict";
     var roamingSavedSettings = Windows.Storage.ApplicationData.current.roamingSettings;
@@ -10,6 +8,18 @@
     WinJS.UI.Pages.define("/pages/demoPage/demoPage.html", {
 
         ready: function (element, options) {
+
+            $(window).resize(function () {
+
+                $('.centerScreen').css({
+                    position: 'absolute',
+                    left: ($(window).width() - $('.centerScreen').outerWidth()) / 2,
+                    top: ($(window).height() - $('.centerScreen').outerHeight()) / 2
+                });
+
+            });
+
+            $(window).resize();
 
             var imgPgCurl = document.getElementById("imgPageCurl");
             imgPgCurl.addEventListener("click", cmdShowAppBar, false);

@@ -1,1 +1,1 @@
-C:\Users\Lwin\Documents\Visual Studio 2012\Projects\Under the Covers\Under the Covers\Under the Covers.jsproj;neutral
+C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\Under the Covers.jsproj;neutral

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="761c3ecf-75f8-4ed4-9303-b322e276d390" Version="1.0.0.0" Publisher="CN=Lwin" />
+  <Properties>
+    <DisplayName>Under the Covers - Message Boxes</DisplayName>
+    <PublisherDisplayName>Lwin</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Under the Covers - Message Boxes" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Under the Covers App Series is a collection of apps with how-to instructions on building Windows 8 Modern UI applications for beginner developers." ForegroundText="dark" BackgroundColor="#FFFFFF">
+        <DefaultTile ShowName="allLogos" WideLogo="images\widelogo.png" ShortName="UTC : Message Boxes" />
+        <SplashScreen Image="images\splashscreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
