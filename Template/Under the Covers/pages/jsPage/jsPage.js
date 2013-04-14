@@ -22,7 +22,8 @@
             var editor = CodeMirror.fromTextArea(document.getElementById("codeBlockJS"), {
                 lineNumbers: true,
                 matchBrackets: true,
-                mode: "text/typescript"
+                mode: "text/typescript",
+                theme: "customJS"
             });
 
             var imgPgCurl = document.getElementById("imgPageCurl");

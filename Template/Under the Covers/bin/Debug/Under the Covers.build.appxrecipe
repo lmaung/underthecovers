@@ -19,6 +19,9 @@
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\customAppBar.css">
       <PackagePath>css\customAppBar.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\customCMTheme.css">
+      <PackagePath>css\customCMTheme.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>

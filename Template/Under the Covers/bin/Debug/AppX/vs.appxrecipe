@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-04-14T05:53:29.038</Modified>
+      <Modified>2013-04-14T20:14:58.443</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -27,6 +27,10 @@
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\customAppBar.css">
       <PackagePath>css\customAppBar.css</PackagePath>
       <Modified>2013-04-04T17:15:00.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\customCMTheme.css">
+      <PackagePath>css\customCMTheme.css</PackagePath>
+      <Modified>2013-04-14T20:12:21.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\default.css">
       <PackagePath>css\default.css</PackagePath>
@@ -300,7 +304,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\cssPage\cssPage.js">
       <PackagePath>pages\cssPage\cssPage.js</PackagePath>
-      <Modified>2013-04-14T05:51:04.771</Modified>
+      <Modified>2013-04-14T20:19:53.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
@@ -312,11 +316,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\htmlPage\htmlPage.js">
       <PackagePath>pages\htmlPage\htmlPage.js</PackagePath>
-      <Modified>2013-04-14T05:50:54.294</Modified>
+      <Modified>2013-04-14T20:20:41.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\jsPage\jsPage.js">
       <PackagePath>pages\jsPage\jsPage.js</PackagePath>
-      <Modified>2013-04-14T05:50:40.127</Modified>
+      <Modified>2013-04-14T20:20:54.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\privacy\privacy.js">
       <PackagePath>pages\privacy\privacy.js</PackagePath>
@@ -340,7 +344,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-04-14T05:01:00.717</Modified>
+      <Modified>2013-04-14T20:13:22.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\demoPage\demoPage.html">
       <PackagePath>pages\demoPage\demoPage.html</PackagePath>
@@ -360,7 +364,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-04-14T05:53:28.932</Modified>
+      <Modified>2013-04-14T20:14:58.380</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

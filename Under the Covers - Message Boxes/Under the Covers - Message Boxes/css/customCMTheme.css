@@ -1,0 +1,47 @@
+﻿.CodeMirror-gutters {
+  border-right: 1px solid #A5A5A5;
+  background-color: #FFF;
+}
+
+.CodeMirror-linenumber {
+  color: #2b91af;
+}
+
+.cm-s-customJS .cm-keyword {color: blue;}         
+.cm-s-customJS .cm-atom {color: blue;}            
+.cm-s-customJS .cm-number {color: blue;}          
+.cm-s-customJS .cm-property {color: black;}       
+.cm-s-customJS .cm-comment {color: darkgreen;}    
+.cm-s-customJS .cm-string {color: maroon;}        
+.cm-s-customJS .cm-string-2 {color: blue;}        
+.cm-s-customJS .cm-meta {color: red;}             
+.cm-s-customJS .cm-error {color: blue;}           
+.cm-s-customJS .cm-qualifier {color: maroon;}     
+.cm-s-customJS .cm-tag {color: maroon;}           
+.cm-s-customJS .cm-attribute {color: red;}        
+
+.cm-s-customHTML .cm-keyword {color: blue;}         
+.cm-s-customHTML .cm-atom {color: blue;}            
+.cm-s-customHTML .cm-number {color: blue;}          
+.cm-s-customHTML .cm-property {color: red;}         
+.cm-s-customHTML .cm-comment {color: darkgreen;}    
+.cm-s-customHTML .cm-string {color: blue;}          
+.cm-s-customHTML .cm-string-2 {color: blue;}        
+.cm-s-customHTML .cm-meta {color: red;}             
+.cm-s-customHTML .cm-error {color: blue;}           
+.cm-s-customHTML .cm-qualifier {color: maroon;}     
+.cm-s-customHTML .cm-tag {color: maroon;}            
+.cm-s-customHTML .cm-attribute {color: red;}         
+
+.cm-s-customCSS .cm-keyword {color: blue;}         
+.cm-s-customCSS .cm-atom {color: blue;}            
+.cm-s-customCSS .cm-number {color: blue;}          
+.cm-s-customCSS .cm-property {color: red;}         
+.cm-s-customCSS .cm-comment {color: darkgreen;}    
+.cm-s-customCSS .cm-string {color: maroon;}        
+.cm-s-customCSS .cm-string-2 {color: blue;}        
+.cm-s-customCSS .cm-meta {color: red;}             
+.cm-s-customCSS .cm-error {color: blue;}           
+.cm-s-customCSS .cm-qualifier {color: maroon;}     
+.cm-s-customCSS .cm-tag {color: maroon;}            
+.cm-s-customCSS .cm-attribute {color: red;}         

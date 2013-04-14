@@ -21,7 +21,9 @@
 
             var editor = CodeMirror.fromTextArea(document.getElementById("codeBlockCSS"), {
                 lineNumbers: true,
-                matchBrackets: true
+                matchBrackets: true,
+                mode: "text/css",
+                theme: "customCSS"
             });
 
             var imgPgCurl = document.getElementById("imgPageCurl");

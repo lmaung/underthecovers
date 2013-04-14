@@ -19,9 +19,23 @@
 
             $(window).resize();
 
+            var mixedMode = {
+                name: "htmlmixed",
+                scriptTypes: [{
+                    matches: /\/x-handlebars-template|\/x-mustache/i,
+                    mode: null
+                },
+                              {
+                                  matches: /(text|application)\/(x-)?vb(a|script)/i,
+                                  mode: "vbscript"
+                              }]
+            };
+
             var editor = CodeMirror.fromTextArea(document.getElementById("codeBlockHTML"), {
                 lineNumbers: true,
-                matchBrackets: true
+                matchBrackets: true,
+                mode: mixedMode,
+                theme: "customHTML"
             });
 
             var imgPgCurl = document.getElementById("imgPageCurl");
