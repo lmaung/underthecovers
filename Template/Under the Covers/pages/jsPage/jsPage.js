@@ -10,16 +10,20 @@
         ready: function (element, options) {
 
             $(window).resize(function () {
-
                 $('.centerScreen').css({
                     position: 'absolute',
                     left: ($(window).width() - $('.centerScreen').outerWidth()) / 2,
                     top: ($(window).height() - $('.centerScreen').outerHeight()) / 2
                 });
-
             });
 
             $(window).resize();
+
+            var editor = CodeMirror.fromTextArea(document.getElementById("codeBlockJS"), {
+                lineNumbers: true,
+                matchBrackets: true,
+                mode: "text/typescript"
+            });
 
             var imgPgCurl = document.getElementById("imgPageCurl");
             imgPgCurl.addEventListener("click", cmdShowAppBar, false);

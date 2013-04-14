@@ -13,6 +13,9 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\codemirror.css">
+      <PackagePath>css\codemirror.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\customAppBar.css">
       <PackagePath>css\customAppBar.css</PackagePath>
     </AppxPackagedFile>
@@ -190,6 +193,24 @@
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\WideLogo.scale-80.png">
       <PackagePath>images\WideLogo.scale-80.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\codemirror\codemirror.js">
+      <PackagePath>js\codemirror\codemirror.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\codemirror\css.js">
+      <PackagePath>js\codemirror\css.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\codemirror\htmlembedded.js">
+      <PackagePath>js\codemirror\htmlembedded.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\codemirror\htmlmixed.js">
+      <PackagePath>js\codemirror\htmlmixed.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\codemirror\javascript.js">
+      <PackagePath>js\codemirror\javascript.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\codemirror\xml.js">
+      <PackagePath>js\codemirror\xml.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\default.js">
       <PackagePath>js\default.js</PackagePath>

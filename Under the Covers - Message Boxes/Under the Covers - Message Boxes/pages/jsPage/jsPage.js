@@ -18,13 +18,14 @@
                     left: ($(window).width() - $('.centerScreen').outerWidth()) / 2,
                     top: ($(window).height() - $('.centerScreen').outerHeight()) / 2
                 });
-
             });
 
             $(window).resize();
 
-            $('.editable').each(function () {
-                this.contentEditable = true;
+            var editor = CodeMirror.fromTextArea(document.getElementById("codeBlockJS"), {
+                lineNumbers: true,
+                matchBrackets: true,
+                mode: "text/typescript"
             });
 
             var imgPgCurl = document.getElementById("imgPageCurl");
@@ -51,7 +52,6 @@
             /// <param name="element" domElement="true" />
 
             // TODO: Respond to changes in viewState.
-
         }
     });
     //CODE GOES HERE

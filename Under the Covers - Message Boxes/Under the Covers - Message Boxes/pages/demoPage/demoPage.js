@@ -12,13 +12,11 @@
         ready: function (element, options) {
 
             $(window).resize(function () {
-
                 $('.centerScreen').css({
                     position: 'absolute',
                     left: ($(window).width() - $('.centerScreen').outerWidth()) / 2,
                     top: ($(window).height() - $('.centerScreen').outerHeight()) / 2
                 });
-
             });
 
             $(window).resize();
@@ -30,6 +28,9 @@
 
             var btnMsgDlgDone = document.getElementById("btnMessageBoxDone");
             btnMsgDlgDone.addEventListener("click", cmdShowMessageBoxDone, false);
+
+            var btnMsgDlgChoice = document.getElementById("btnMessageBoxChoice");
+            btnMsgDlgChoice.addEventListener("click", cmdShowMessageBoxChoices, false);
 
             var imgPgCurl = document.getElementById("imgPageCurl");
             imgPgCurl.addEventListener("click", cmdShowAppBar, false);
@@ -60,6 +61,8 @@
     });
     //CODE GOES HERE
     function cmdShowMessageBox() {
+        var changedTxt = document.getElementById("changedText");
+        changedTxt.innerHTML = "Message will be changed <strong>after</strong> dialog is displayed.";
         var md = new Windows.UI.Popups.MessageDialog('Hello Message', 'Title');
         md.showAsync();
     }
@@ -71,6 +74,27 @@
             function () {
                 changedTxt.innerHTML = "I am <strong>CHANGED!</strong>";
         });
+    }
+
+    function cmdShowMessageBoxChoices() {
+        var changedTxt = document.getElementById("changedText");
+        changedTxt.innerHTML = "Message will be changed <strong>after</strong> dialog is displayed.";
+        var md = new Windows.UI.Popups.MessageDialog('Hello Message', 'Title');
+        // Add commands and set their command handlers 
+        md.commands.append(new Windows.UI.Popups.UICommand("Choice 1", cmdChoice1));
+        md.commands.append(new Windows.UI.Popups.UICommand("Choice 2", cmdChoice2));
+        // Set the command that will be invoked by default 
+        md.defaultCommandIndex = 0;
+        // Set the command to be invoked when escape is pressed 
+        md.cancelCommandIndex = 1;
+        // Show the message dialog 
+        md.showAsync();
+    }
+    function cmdChoice1() {
+
+    }
+    function cmdChoice2() {
+
     }
 
     function cmdShowAppBar() {

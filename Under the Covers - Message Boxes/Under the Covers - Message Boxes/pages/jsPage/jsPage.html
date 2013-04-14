@@ -11,9 +11,8 @@
 
     <link href="jsPage.css" rel="stylesheet" />
     <script src="jsPage.js"></script>
-    <link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
-    <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript"></script>
-    <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js" type="text/javascript"></script>    
+    <style type="text/css">.CodeMirror {border-top: 1px solid black; border-bottom: 1px solid black; width:82%; margin-top:60px;}</style>
+
 </head>
 <body>
     <div class="jsPage fragment">
@@ -25,21 +24,47 @@
             <img id="imgPageCurl" class="pagesubtitle pageCurlImage" src="/images/pageCurlTop.png"/>
         </header>
         <section aria-label="Main content" role="main">
+                <br /><br />
+                <textarea id="codeBlockJS" class="centerScreen">
+    // CASE 1
+    // NOTE: Since Async is used, the app will display the message dialog and while the display
+    //       is being rendered, codes on and following LINE 5 will continue and execute.
+    var md = new Windows.UI.Popups.MessageDialog('Hello Message', 'Title');
+    md.showAsync();
 
-            <div class="centerScreen" contentEditable='true' unselectable='true'>
-                    <span class="codeGreen">// NOTE: Since Async is used, the app will display the message dialog and while</span><br />
-                    <span class="codeGreen">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the display is being rendered, codes on and following LINE 3 will continue and execute.</span><br />
-                     01. <span class="codeBlue">var</span> md = <span class="codeBlue">new</span> Windows.UI.Popups.MessageDialog(<span class="codeBrown">'Hello Message'</span>,<span class="codeBrown">'Title'</span>);<br />
-                     02. md.showAsync();<br />
-                     03. <span class="codeGreen">// ADDITIONAL CODES</span><br /><br />
 
-                     <span class="codeGreen">// NOTE: In order to make sure that certain code sequences are only executed AFTER</span><br />
-                     <span class="codeGreen">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the message box is displayed, promises and .done is used</span><br />
-                     01. <span class="codeBlue">var</span> md = <span class="codeBlue">new</span> Windows.UI.Popups.MessageDialog(<span class="codeBrown">'Hello Message'</span>,<span class="codeBrown">'Title'</span>).showAsync().done(;<br />
-                     02. &nbsp;&nbsp;<span class="codeBlue">function</span> () {<br />
-                     03. &nbsp;&nbsp;&nbsp;&nbsp;<span class="codeGreen">//CODE TO CHANGE AFTER MESSAGE DIALOG IS DISPLAYED</span><br />
-                     04. });
-            </div>
+    // CASE 2
+    // NOTE: In order to make sure that certain code sequences are only executed AFTER the message
+    //       box is displayed, promises are used as shown in the code below.
+    var md = new Windows.UI.Popups.MessageDialog('Hello Message', 'Title').showAsync().done(
+        function () {
+            changedTxt.innerHTML = "I am <strong>CHANGED!</strong>";
+    });
+
+
+    // CASE 3
+    // NOTE: In the case where we want to show additional choices, following code segment can be
+    //       used to show the choice buttons.
+    var md = new Windows.UI.Popups.MessageDialog('Hello Message', 'Title');
+    // Add commands and set their command handlers 
+    md.commands.append(new Windows.UI.Popups.UICommand("Choice 1", cmdChoice1));
+    md.commands.append(new Windows.UI.Popups.UICommand("Choice 2", cmdChoice2));
+    // Set the command that will be invoked by default 
+    md.defaultCommandIndex = 0;
+    // Set the command to be invoked when escape is pressed 
+    md.cancelCommandIndex = 1;
+    // Show the message dialog 
+    md.showAsync();
+
+    function cmdChoice1() {
+        //Code for choice 1
+    }
+    function cmdChoice2() {
+         //Code for choice 2
+    }
+
+                </textarea>
+                Javascript Code
         </section>
     </div>
 

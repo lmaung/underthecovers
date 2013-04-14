@@ -5,7 +5,7 @@
     <WindowsUser>Lwin</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>9D9B501D1B9EED419381AC6C4C7EB0E1A53C53CB71CCAFAFF8043A80FB82919A</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>E259040E2936FBB35D678EBE4C089EAF391DD6B5748EBE24898888A71C4C5BC4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>0b0c7763-9692-4f93-a824-94221806a94c_1.0.0.0_neutral__ax83ghpfszz6t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>0b0c7763-9692-4f93-a824-94221806a94c_ax83ghpfszz6t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>0b0c7763-9692-4f93-a824-94221806a94c</RegisteredPackageID>
@@ -16,17 +16,21 @@
     <AppXManifest Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-04-12T00:41:30.468</Modified>
+      <Modified>2013-04-14T05:53:29.038</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\codemirror.css">
+      <PackagePath>css\codemirror.css</PackagePath>
+      <Modified>2013-04-14T02:14:04.755</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\customAppBar.css">
       <PackagePath>css\customAppBar.css</PackagePath>
       <Modified>2013-04-04T17:15:00.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-04-09T06:29:29.648</Modified>
+      <Modified>2013-04-14T04:57:47.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\about\about.css">
       <PackagePath>pages\about\about.css</PackagePath>
@@ -42,7 +46,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
-      <Modified>2013-04-05T06:38:57.012</Modified>
+      <Modified>2013-04-12T20:07:56.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\demoPage\demoPage.css">
       <PackagePath>pages\demoPage\demoPage.css</PackagePath>
@@ -108,6 +112,18 @@
       <PackagePath>images\appbar_js.scale-180.png</PackagePath>
       <Modified>2013-04-04T17:54:43.546</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\BadgeLogo.scale-100.png">
+      <PackagePath>images\BadgeLogo.scale-100.png</PackagePath>
+      <Modified>2013-04-12T19:05:53.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\BadgeLogo.scale-140.png">
+      <PackagePath>images\BadgeLogo.scale-140.png</PackagePath>
+      <Modified>2013-04-12T19:05:21.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\BadgeLogo.scale-180.png">
+      <PackagePath>images\BadgeLogo.scale-180.png</PackagePath>
+      <Modified>2013-04-12T19:04:31.662</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\Logo.scale-100.png">
       <PackagePath>images\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -132,10 +148,45 @@
       <PackagePath>images\pageCurlTop.png</PackagePath>
       <Modified>2013-04-09T04:14:17.584</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\smalllogo.png">
-      <PackagePath>images\smalllogo.png</PackagePath>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\SmallLogo.scale-100.png">
+      <PackagePath>images\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-02-14T01:24:38.000</Modified>
+      <Modified>2013-04-12T18:11:28.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\SmallLogo.scale-140.png">
+      <PackagePath>images\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-12T18:01:45.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\SmallLogo.scale-180.png">
+      <PackagePath>images\SmallLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-12T17:55:17.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\SmallLogo.scale-80.png">
+      <PackagePath>images\SmallLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-12T18:50:57.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\SmallLogo.targetsize-16.png">
+      <PackagePath>images\SmallLogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-12T18:55:40.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\SmallLogo.targetsize-256.png">
+      <PackagePath>images\SmallLogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-12T18:54:53.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\SmallLogo.targetsize-32.png">
+      <PackagePath>images\SmallLogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-12T18:55:21.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\SmallLogo.targetsize-48.png">
+      <PackagePath>images\SmallLogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-12T18:54:33.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
@@ -152,10 +203,36 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T02:35:45.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\storelogo.png">
-      <PackagePath>images\storelogo.png</PackagePath>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-02-14T01:24:38.000</Modified>
+      <Modified>2013-04-12T18:58:11.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\StoreLogo.scale-140.png">
+      <PackagePath>images\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-12T18:57:44.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\StoreLogo.scale-180.png">
+      <PackagePath>images\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-12T18:57:22.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\TargetSize.16.png">
+      <PackagePath>images\TargetSize.16.png</PackagePath>
+      <Modified>2013-04-12T18:55:40.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\TargetSize.256.png">
+      <PackagePath>images\TargetSize.256.png</PackagePath>
+      <Modified>2013-04-12T18:54:53.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\TargetSize.32.png">
+      <PackagePath>images\TargetSize.32.png</PackagePath>
+      <Modified>2013-04-12T18:55:21.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\TargetSize.48.png">
+      <PackagePath>images\TargetSize.48.png</PackagePath>
+      <Modified>2013-04-12T18:54:33.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\widelogo.scale-100.png">
       <PackagePath>images\widelogo.scale-100.png</PackagePath>
@@ -176,6 +253,30 @@
       <PackagePath>images\WideLogo.scale-80.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-03T01:57:42.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\codemirror\codemirror.js">
+      <PackagePath>js\codemirror\codemirror.js</PackagePath>
+      <Modified>2013-04-14T02:14:04.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\codemirror\css.js">
+      <PackagePath>js\codemirror\css.js</PackagePath>
+      <Modified>2013-04-14T02:14:05.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\codemirror\htmlembedded.js">
+      <PackagePath>js\codemirror\htmlembedded.js</PackagePath>
+      <Modified>2013-04-14T02:14:06.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\codemirror\htmlmixed.js">
+      <PackagePath>js\codemirror\htmlmixed.js</PackagePath>
+      <Modified>2013-04-14T02:14:06.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\codemirror\javascript.js">
+      <PackagePath>js\codemirror\javascript.js</PackagePath>
+      <Modified>2013-04-14T02:14:06.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\codemirror\xml.js">
+      <PackagePath>js\codemirror\xml.js</PackagePath>
+      <Modified>2013-04-14T02:14:05.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -199,23 +300,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\cssPage\cssPage.js">
       <PackagePath>pages\cssPage\cssPage.js</PackagePath>
-      <Modified>2013-04-11T01:36:24.289</Modified>
+      <Modified>2013-04-14T05:51:04.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2013-04-11T01:36:00.131</Modified>
+      <Modified>2013-04-14T04:57:14.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\demoPage\demoPage.js">
       <PackagePath>pages\demoPage\demoPage.js</PackagePath>
-      <Modified>2013-04-11T01:36:05.858</Modified>
+      <Modified>2013-04-14T04:57:07.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\htmlPage\htmlPage.js">
       <PackagePath>pages\htmlPage\htmlPage.js</PackagePath>
-      <Modified>2013-04-11T01:36:12.604</Modified>
+      <Modified>2013-04-14T05:50:54.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\jsPage\jsPage.js">
       <PackagePath>pages\jsPage\jsPage.js</PackagePath>
-      <Modified>2013-04-11T01:35:43.949</Modified>
+      <Modified>2013-04-14T05:50:40.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\privacy\privacy.js">
       <PackagePath>pages\privacy\privacy.js</PackagePath>
@@ -231,7 +332,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\cssPage\cssPage.html">
       <PackagePath>pages\cssPage\cssPage.html</PackagePath>
-      <Modified>2013-04-11T01:35:36.139</Modified>
+      <Modified>2013-04-14T05:53:26.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
@@ -239,19 +340,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-04-03T02:50:56.010</Modified>
+      <Modified>2013-04-14T05:01:00.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\demoPage\demoPage.html">
       <PackagePath>pages\demoPage\demoPage.html</PackagePath>
-      <Modified>2013-04-11T01:35:36.170</Modified>
+      <Modified>2013-04-12T20:10:03.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\htmlPage\htmlPage.html">
       <PackagePath>pages\htmlPage\htmlPage.html</PackagePath>
-      <Modified>2013-04-11T01:35:36.150</Modified>
+      <Modified>2013-04-14T05:53:17.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\jsPage\jsPage.html">
       <PackagePath>pages\jsPage\jsPage.html</PackagePath>
-      <Modified>2013-04-11T01:35:36.160</Modified>
+      <Modified>2013-04-14T05:53:10.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\privacy\privacy.html">
       <PackagePath>pages\privacy\privacy.html</PackagePath>
@@ -259,7 +360,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-04-09T04:16:17.788</Modified>
+      <Modified>2013-04-14T05:53:28.932</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

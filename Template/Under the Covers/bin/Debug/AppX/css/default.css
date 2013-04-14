@@ -6,6 +6,16 @@
 .pageCurlImage {position:absolute; top: -70px; right: 0px; width:120px; height:120px;
 }
 
+.centerScreen {
+    width:75%;
+    height:40%;
+    border:1px solid #222;
+    box-shadow: rgba(128, 128, 128,.5) 5px 5px 10px;
+    padding:2%;
+    font-size:1.25em;
+    text-align:justify;
+}
+
 .fragment {
     /* Define a grid with rows for a banner and a body */
     -ms-grid-columns: 1fr;

@@ -10,13 +10,11 @@
         ready: function (element, options) {
 
             $(window).resize(function () {
-
                 $('.centerScreen').css({
                     position: 'absolute',
                     left: ($(window).width() - $('.centerScreen').outerWidth()) / 2,
                     top: ($(window).height() - $('.centerScreen').outerHeight()) / 2
                 });
-
             });
 
             $(window).resize();

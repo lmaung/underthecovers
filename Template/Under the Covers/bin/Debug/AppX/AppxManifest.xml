@@ -22,7 +22,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <VisualElements DisplayName="Under the Covers" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Under the Covers App Series is a collection of apps with how-to instructions on building Windows 8 Modern UI applications for beginner developers." ForegroundText="dark" BackgroundColor="#FFFFFF">
+      <VisualElements DisplayName="Under the Covers" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Under the Covers App Series is a collection of apps with how-to instructions on building Windows 8 Modern UI applications for beginner developers." ForegroundText="dark" BackgroundColor="#FFFFFF" ToastCapable="false">
         <DefaultTile ShowName="allLogos" WideLogo="images\widelogo.png" />
         <SplashScreen Image="images\splashscreen.png" />
         <InitialRotationPreference>
