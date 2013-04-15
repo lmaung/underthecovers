@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>homePage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="home.css" rel="stylesheet" />
+    <script src="home.js"></script>
+</head>
+<body>
+    <div class="homepage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class=" titlearea pagetitle win-type-ellipsis">Under the Covers</h1>
+            <h2 class="pagesubtitle win-type-ellipsis">Settings Pages</h2>
+            <img id="imgPageCurl" class="pagesubtitle pageCurlImage" src="/images/pageCurlTop.png"/>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div class="centerScreen">
+                Privacy information page is one of the requirements for an App to be published in the Windows Store. Typically, pages such as privacy information, 
+                about, settings pages resides on the settings tab. <br /><br />
+                Settings tab can be found under the charm menu by swiping in from the right side of the screen. On a non touch screen machines, the menu can 
+                be displayed by pressing <code><strong>WIN + i</strong></code> on the keyboard. 
+            </div>
+        </section>
+    </div>
+
+    <!-- Create AppBar -->
+    <!-- BEGINTEMPLATE: Template code for an AppBar -->
+    <div class="customColor" id="homeAppBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdAdd',
+            label:'Add',
+            icon:'\uE107',
+            section:'global',
+            tooltip:'Add item'}">
+        </button>
+        <hr data-win-control="WinJS.UI.AppBarCommand" data-win-options="{type:'separator',section:'global'}" />-->
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdHomePage',
+            label:'Demo',
+            icon:'url(images/appbar_home.png)',
+            section:'global',
+            tooltip:'Under the Covers'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowHTML',
+            label:'HTML',
+            icon:'url(images/appbar_html5.png)',
+            section:'selection',
+            tooltip:'Show HTML Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowCSS',
+            label:'CSS',
+            icon:'url(images/appbar_css3.png)',
+            section:'selection',
+            tooltip:'Show CSS Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowJS',
+            label:'JavaScript',
+            icon:'url(images/appbar_js.png)',
+            section:'selection',
+            tooltip:'Show JavaScript Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowExtra',
+            label:'Extras',
+            icon:'url(images/appbar_add.png)',
+            section:'selection',
+            tooltip:'Show Extras'}">
+        </button>
+    </div>
+    <!-- ENDTEMPLATE -->
+
+</body>
+</html>

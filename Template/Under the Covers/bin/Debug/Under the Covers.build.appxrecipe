@@ -34,6 +34,9 @@
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\cssPage\cssPage.css">
       <PackagePath>pages\cssPage\cssPage.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\extraPage\extraPage.css">
+      <PackagePath>pages\extraPage\extraPage.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
     </AppxPackagedFile>
@@ -48,6 +51,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\privacy\privacy.css">
       <PackagePath>pages\privacy\privacy.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_add.png">
+      <PackagePath>images\appbar_add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_add.scale-140.png">
+      <PackagePath>images\appbar_add.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_add.scale-180.png">
+      <PackagePath>images\appbar_add.scale-180.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\appbar_css3.png">
       <PackagePath>images\appbar_css3.png</PackagePath>
@@ -221,6 +233,9 @@
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\jquery-1.8.3.min.js">
       <PackagePath>js\jquery-1.8.3.min.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\jquery-ui.min.js">
+      <PackagePath>js\jquery-ui.min.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
     </AppxPackagedFile>
@@ -232,6 +247,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\cssPage\cssPage.js">
       <PackagePath>pages\cssPage\cssPage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\extraPage\extraPage.js">
+      <PackagePath>pages\extraPage\extraPage.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
@@ -256,6 +274,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\cssPage\cssPage.html">
       <PackagePath>pages\cssPage\cssPage.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\extraPage\extraPage.html">
+      <PackagePath>pages\extraPage\extraPage.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>

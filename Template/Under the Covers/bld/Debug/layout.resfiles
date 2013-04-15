@@ -3,6 +3,9 @@ css\customAppBar.css
 css\customCMTheme.css
 css\default.css
 default.html
+images\appbar_add.png
+images\appbar_add.scale-140.png
+images\appbar_add.scale-180.png
 images\appbar_css3.png
 images\appbar_css3.scale-140.png
 images\appbar_css3.scale-180.png
@@ -53,6 +56,7 @@ js\codemirror\javascript.js
 js\codemirror\xml.js
 js\default.js
 js\jquery-1.8.3.min.js
+js\jquery-ui.min.js
 js\navigator.js
 pages\about\about.css
 pages\about\about.html
@@ -66,6 +70,9 @@ pages\cssPage\cssPage.js
 pages\demoPage\demoPage.css
 pages\demoPage\demoPage.html
 pages\demoPage\demoPage.js
+pages\extraPage\extraPage.css
+pages\extraPage\extraPage.html
+pages\extraPage\extraPage.js
 pages\home\home.css
 pages\home\home.html
 pages\home\home.js

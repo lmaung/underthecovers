@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>htmlPage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="htmlPage.css" rel="stylesheet" />
+    <script src="htmlPage.js"></script>
+    <style type="text/css">.CodeMirror {border-top: 1px solid black; border-bottom: 1px solid black; width:82%; margin-top:60px;}</style>
+</head>
+<body>
+    <div class="htmlPage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class=" titlearea pagetitle win-type-ellipsis">Under the Covers</h1>
+            <h2 class="pagesubtitle win-type-ellipsis">Settings Pages: HTML Code</h2>
+            <img id="imgPageCurl" class="pagesubtitle pageCurlImage" src="/images/pageCurlTop.png"/>
+        </header>
+        <section aria-label="Main content" role="main">
+            <br /><br />
+                <textarea id="codeBlockHTML" class="centerScreen">
+<!-- FILE USED : /pages/about/about.html -->
+<!--You can change the width by using narrow option-->
+<body>
+    <div id="about" data-win-control="WinJS.UI.SettingsFlyout"  data-win-options="{width:'wide'}">  
+        <div class="win-ui-dark win-header">              <!-- Background color reflects app's personality -->
+               <button type="button" onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton"></button>
+               <div class="win-label">About this App</div>
+            </div>
+            <div class="win-content ">
+                <div class="win-settings-section">
+                    <article class="SettingsContent">
+                        <!-- Your page content goes here -->
+                    </article>
+                </div>
+            </div>
+        </div>
+</body>
+                </textarea>
+                HTML Code
+        </section>
+    </div>
+
+    <!-- Create AppBar -->
+    <!-- BEGINTEMPLATE: Template code for an AppBar -->
+    <div class="customColor" id="htmlAppBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdAdd',
+            label:'Add',
+            icon:'\uE107',
+            section:'global',
+            tooltip:'Add item'}">
+        </button>
+        <hr data-win-control="WinJS.UI.AppBarCommand" data-win-options="{type:'separator',section:'global'}" />-->
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdHomePage',
+            label:'Demo',
+            icon:'url(images/appbar_home.png)',
+            section:'global',
+            tooltip:'Under the Covers'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowHTML',
+            label:'HTML',
+            icon:'url(images/appbar_html5.png)',
+            section:'selection',
+            tooltip:'Show HTML Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowCSS',
+            label:'CSS',
+            icon:'url(images/appbar_css3.png)',
+            section:'selection',
+            tooltip:'Show CSS Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowJS',
+            label:'JavaScript',
+            icon:'url(images/appbar_js.png)',
+            section:'selection',
+            tooltip:'Show JavaScript Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowExtra',
+            label:'Extras',
+            icon:'url(images/appbar_add.png)',
+            section:'selection',
+            tooltip:'Show Extras'}">
+        </button>
+    </div>
+    <!-- ENDTEMPLATE -->
+
+</body>
+</html>

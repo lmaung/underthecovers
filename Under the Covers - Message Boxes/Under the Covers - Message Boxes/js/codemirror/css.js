@@ -1,4 +1,4 @@
-CodeMirror.defineMode("css", function(config) {
+﻿CodeMirror.defineMode("css", function(config) {
   return CodeMirror.getMode(config, "text/css");
 });
 

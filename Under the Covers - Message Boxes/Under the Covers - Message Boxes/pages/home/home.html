@@ -23,7 +23,7 @@
         </header>
         <section aria-label="Main content" role="main">
             <div class="centerScreen">
-               The first item that developer normally need for developing or testing an app is a way to display information back to the user interface. Typically, we use <code>messagebox.show</code> or <code>alert</code> to prompt a display. <br /><br />
+               The first item that developers normally need in developing or testing an app is a way to display information back to the user interface for various debug messages. Typically, we use <code>messagebox.show</code> or <code>alert</code> to prompt a display. <br /><br />
                In the case of Windows 8, afore mentioned methods can no longer be used since Windows 8 expect the prompts to be handled seperately thus, freeing the UI or core app to continue on.<br /><br />
                Normally, in the cases where UI code is different from a seperate portions of codes where another activity is taking place (in our case, message box), we have to create a seperate thread and display that accordingly.<br /><br />
                In Windows 8, built in ASYNC and AWAIT will take care of creating, and monitoring seperate threads and processes.
@@ -69,6 +69,13 @@
             icon:'url(images/appbar_js.png)',
             section:'selection',
             tooltip:'Show JavaScript Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowExtra',
+            label:'Extras',
+            icon:'url(images/appbar_add.png)',
+            section:'selection',
+            tooltip:'Show Extras'}">
         </button>
     </div>
     <!-- ENDTEMPLATE -->

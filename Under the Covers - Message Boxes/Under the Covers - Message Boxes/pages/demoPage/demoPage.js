@@ -23,6 +23,9 @@
             var changedTxt = document.getElementById("changedText");
             changedTxt.innerHTML = "Message will be changed <strong>after</strong> dialog is displayed.";
 
+            var ExtraPage = document.getElementById("cmdShowExtra");
+            ExtraPage.addEventListener("click", doCmdShowExtra, false);
+
             var btnMsgDlg = document.getElementById("btnMessageBox");
             btnMsgDlg.addEventListener("click", cmdShowMessageBox, false);
 
@@ -99,6 +102,10 @@
 
     function cmdShowAppBar() {
         document.getElementById('demoAppBar').winControl.show();
+    }
+
+    function doCmdShowExtra() {
+        WinJS.Navigation.navigate("/pages/extraPage/extraPage.html");
     }
 
     function doCmdHTMLPage() {

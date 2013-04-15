@@ -29,6 +29,9 @@
             var imgPgCurl = document.getElementById("imgPageCurl");
             imgPgCurl.addEventListener("click", cmdShowAppBar, false);
 
+            var ExtraPage = document.getElementById("cmdShowExtra");
+            ExtraPage.addEventListener("click", doCmdShowExtra, false);
+
             var HTMLPage = document.getElementById("cmdShowHTML");
             HTMLPage.addEventListener("click", doCmdHTMLPage, false);
 
@@ -56,6 +59,10 @@
     //CODE GOES HERE
     function cmdShowAppBar() {
         document.getElementById('cssAppBar').winControl.show();
+    }
+
+    function doCmdShowExtra() {
+        WinJS.Navigation.navigate("/pages/extraPage/extraPage.html");
     }
 
     function doCmdHTMLPage() {

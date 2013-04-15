@@ -25,26 +25,7 @@
         <section aria-label="Main content" role="main">
             <br /><br />
                 <textarea id="codeBlockCSS" class="centerScreen">
-    /* No CSS styles were used for the demo */
-    .centerScreen {
-        width:75%;
-        height:40%;
-        border:1px solid #222;
-        box-shadow: rgba(128, 128, 128,.5) 5px 5px 10px;
-        padding:2%;
-        font-size:1.25em;
-        text-align:justify;
-    }
-
-    .fragment {
-        /* Define a grid with rows for a banner and a body */
-        -ms-grid-columns: 1fr;
-        -ms-grid-rows: 128px 1fr;
-        display: -ms-grid;
-        height: 100%;
-        width: 100%;
-    }
-
+    /* Additional styling was not needed for this sample. */
                 </textarea>
                 CSS Code
         </section>
@@ -88,6 +69,13 @@
             icon:'url(images/appbar_js.png)',
             section:'selection',
             tooltip:'Show JavaScript Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowExtra',
+            label:'Extras',
+            icon:'url(images/appbar_add.png)',
+            section:'selection',
+            tooltip:'Show Extras'}">
         </button>
     </div>
     <!-- ENDTEMPLATE -->
