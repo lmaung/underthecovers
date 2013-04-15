@@ -106,6 +106,27 @@
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\BadgeLogo.scale-180.png">
       <PackagePath>images\BadgeLogo.scale-180.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\icon_email.png">
+      <PackagePath>images\icon_email.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\icon_facebook.png">
+      <PackagePath>images\icon_facebook.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\icon_googleplus.png">
+      <PackagePath>images\icon_googleplus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\icon_linkedin.png">
+      <PackagePath>images\icon_linkedin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\icon_skype.png">
+      <PackagePath>images\icon_skype.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\icon_socialmedia.png">
+      <PackagePath>images\icon_socialmedia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\icon_twitter.png">
+      <PackagePath>images\icon_twitter.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Data\Version Controlled\Open Source\underthecovers\Template\Under the Covers\images\Logo.scale-100.png">
       <PackagePath>images\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

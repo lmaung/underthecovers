@@ -16,24 +16,48 @@
     <div id="contactDeveloper" data-win-control="WinJS.UI.SettingsFlyout"  data-win-options="{width:'narrow'}">
         <div class="win-ui-dark win-header">
                <button type="button" onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton"></button>
-               <div class="win-label">Contact Us</div>
+               <div class="win-label">Contact Developer</div>
             </div>
             <div class="win-content ">
                 <div class="win-settings-section">
                 <article class="SettingsContent">
+                    <div>
+                        <div style="float:left;"><img src="../../images/icon_email.png" width="32" height="32"/></div>
+                        <div style="margin-left:42px;"><h2> Via E-Mail:</h2></div>
+                    </div>
+                    <br />
                     <form>
-			            <!--label for="contactName">Your name:</!--label>
-			            <input id="contactName" type="text" name="contactName" placeholder="John Doe" required/>         
-		                <br />
-			            <label for="contactEmail">Your email:</label>
-			            <input id="contactEmail" type="email" name="contactEmail" placeholder="john@doe.com" required/>      
-                        <br /><br /-->
-			            <label for="contactMessage">Your message to the developer:</label>
+			            <label for="contactMessage"></label>
                         <textarea id="contactMessage" rows="7" ></textarea>
                         <br /><br />
                         <button id="btnSendEmail" class="contactEmail" style="width:280px">Send</button>   
                     </form>
                         <p style="font-size:.75em">* Clicking 'Send' will launch your default Email App.</p>
+                    <hr />
+                    <div>
+                        <div style="float:left;"><img src="../../images/icon_socialmedia.png" width="32" height="32"/></div>
+                        <div style="margin-left:42px;"><h2> Via Social Media </h2></div>
+                    </div><br />
+                    <a href="http://www.twitter.com/lmaung"><div>
+                        <div style="float:left;"><img src="../../images/icon_twitter.png" width="32" height="32"/></div>
+                        <div style="margin-left:42px;"><h2> Twitter</h2></div>
+                    </div></a><br />
+                    <a href="http://www.facebook.com/lmaung"><div>
+                        <div style="float:left;"><img src="../../images/icon_facebook.png" width="32" height="32"/></div>
+                        <div style="margin-left:42px;"><h2> Facebook</h2></div>
+                    </div></a><br />
+                    <a href="http://www.linkedin.com/in/lmaung"><div>
+                        <div style="float:left;"><img src="../../images/icon_linkedin.png" width="32" height="32"/></div>
+                        <div style="margin-left:42px;"><h2> Linkedin</h2></div>
+                    </div></a><br />
+                    <!--div>
+                        <div style="float:left;"><img src="../../images/icon_googleplus.png" width="32" height="32"/></div>
+                        <div style="margin-left:42px;"><h2> Google Plus</h2></div>
+                    </!--div><br />-->
+                    <!--div>
+                        <div style="float:left;"><img src="../../images/icon_skype.png" width="32" height="32"/></div>
+                        <div style="margin-left:42px;"><h2> Skype</h2></div>
+                    </!--div>-->
                 </article>
             </div>
         </div>

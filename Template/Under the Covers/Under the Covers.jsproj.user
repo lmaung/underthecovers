@@ -4,7 +4,7 @@
     <ReferenceCachePath>C:\Users\Lwin\AppData\Local\Temp\Under the Covers_refcache</ReferenceCachePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DebuggerFlavor>AppHostRemoteDebugger</DebuggerFlavor>
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
     <MachineName>LM-W510</MachineName>
   </PropertyGroup>
 </Project>

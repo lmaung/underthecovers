@@ -23,7 +23,7 @@
             <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
             <h1 class=" titlearea pagetitle win-type-ellipsis">Under the Covers</h1>
             <h2 class="pagesubtitle win-type-ellipsis">App Template</h2>
-            <image id="imgPageCurl" class="pagesubtitle pageCurlImage" src="/images/pageCurlTop.png"></image>
+            <img id="imgPageCurl" class="pagesubtitle pageCurlImage" src="/images/pageCurlTop.png"></img>
         </header>
         <section aria-label="Main content" role="main">
             <div class="centerScreen">
@@ -70,6 +70,13 @@
             icon:'url(images/appbar_js.png)',
             section:'selection',
             tooltip:'Show JavaScript Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowExtra',
+            label:'Extras',
+            icon:'url(images/appbar_add.png)',
+            section:'selection',
+            tooltip:'Show Extras'}">
         </button>
     </div>
     <!-- ENDTEMPLATE -->
