@@ -348,6 +348,10 @@
     <MainPackageIdentityName>40445PressF5.TFLN</MainPackageIdentityName>
     <MainPackageIdentityName>40445PressF5.Thumbs</MainPackageIdentityName>
     <MainPackageIdentityName>40445PressF5.UndertheCovers</MainPackageIdentityName>
+    <MainPackageIdentityName>40445PressF5.UndertheCoversAppBars</MainPackageIdentityName>
+    <MainPackageIdentityName>40445PressF5.UndertheCoversIconsGraphics</MainPackageIdentityName>
+    <MainPackageIdentityName>40445PressF5.UndertheCoversLocalRoamingStorage</MainPackageIdentityName>
+    <MainPackageIdentityName>40445PressF5.UndertheCoversSettingsPages</MainPackageIdentityName>
   </AccountPackageIdentityNames>
-  <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/01b9b2c5-822c-4066-854c-96ecd77bdaf0" />
+  <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/9489ead2-fd6f-4f9c-a008-04aff222223a" />
 </StoreAssociation>

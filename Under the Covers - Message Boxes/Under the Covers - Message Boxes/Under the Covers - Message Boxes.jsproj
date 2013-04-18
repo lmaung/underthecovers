@@ -35,7 +35,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>761c3ecf-75f8-4ed4-9303-b322e276d390</ProjectGuid>
+    <ProjectGuid>c227d9dd-4509-43d6-b47d-e1713db04795</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
     <VisualStudioVersion>11.0</VisualStudioVersion>
@@ -48,7 +48,7 @@
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
     <PackageCertificateKeyFile>Under the Covers - Message Boxes_StoreKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>D3EEBF4C7023B0F8CC5636FE3351AB8133BC01B0</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>09E15BEAE31D6F849ED54D2BA2484FEED49E9BB1</PackageCertificateThumbprint>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
   </PropertyGroup>
   <ItemGroup>

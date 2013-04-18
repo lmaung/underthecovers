@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="40445PressF5.UndertheCoversLocalRoamingStorage" Version="1.0.0.3" Publisher="CN=55B5DB24-3E41-48AE-B838-C35DC49004C4" />
+  <Properties>
+    <DisplayName>Under the Covers: Local + Roaming Storage</DisplayName>
+    <PublisherDisplayName>Press F5</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Under the Covers: Local + Roaming Storage" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Under the Covers App Series is a collection of apps with how-to instructions on building Windows 8 Modern UI applications for beginner developers. The series of app is aimed at 100 level introductory developer. The app series assume that some basic development skills exists." ForegroundText="dark" BackgroundColor="#FFFFFF">
+        <DefaultTile ShowName="allLogos" WideLogo="images\WideLogo.png" ShortName="Local &amp; Roaming Storage" />
+        <SplashScreen Image="images\splashscreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

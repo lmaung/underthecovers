@@ -1,0 +1,26 @@
+﻿.contactDeveloper p {
+    margin-left: 120px;
+}
+
+.SettingsPane {
+    margin-top:36px;
+    margin-left:24px;
+}
+
+.SettingsTitle {
+    margin-left: 36px;
+}
+
+.SettingsContent {
+    margin-top: 24px;
+}
+
+textarea { 
+    min-width:250px;
+    max-width:250px;
+    height:200px;  
+}
+
+.contactEmail { 
+    width:280px;
+}

@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>jsPage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="jsPage.css" rel="stylesheet" />
+    <script src="jsPage.js"></script>
+    <style type="text/css">.CodeMirror {border-top: 1px solid black; border-bottom: 1px solid black; width:82%; height:70%; margin-top:60px;}</style>
+</head>
+<body>
+    <div class="jsPage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class=" titlearea pagetitle win-type-ellipsis">Under the Covers</h1>
+            <h2 class="pagesubtitle win-type-ellipsis">Local / Roaming Storage: JS Code</h2>
+            <img id="imgPageCurl" class="pagesubtitle pageCurlImage" src="/images/pageCurlTop.png"/>
+        </header>
+        <section aria-label="Main content" role="main">
+            <br /><br />
+                <textarea id="codeBlockJS" class="centerScreen">
+// We'll use local data as well as roaming data in this app.
+var roamingSettings = Windows.Storage.ApplicationData.current.roamingSettings;
+var localSettings = Windows.Storage.ApplicationData.current.localSettings;
+
+reloadSavedData();      // Function Call to repopulate the data (usually call after ready)
+
+var inputRoamText = document.getElementById("inputRoamText");   //Fetch the data and save it when it is CHANGED
+inputRoamText.addEventListener("change", function (e) {
+    roamingSettings.values["savedRoamingValue"] = inputRoamText.value;
+});
+
+var inputLocalText = document.getElementById("inputLocalText"); //Fetch the data and save it when it is CHANGED
+inputLocalText.addEventListener("change", function (e) {
+    localSettings.values["savedLocalValue"] = inputLocalText.value;
+});
+
+function reloadSavedData() { //Re-populate the data if it exists in the roaming or local Settings
+    var localValue = localSettings.values["savedLocalValue"];
+    if (localValue) {
+        document.getElementById("inputLocalText").innerText = localValue;
+    }
+
+    var roamingValue = roamingSettings.values["savedRoamingValue"];
+    if (roamingValue) {
+        document.getElementById("inputRoamText").innerText = roamingValue;
+    }
+}
+                </textarea>
+                JavaScript Code
+        </section>
+    </div>
+
+    <!-- Create AppBar -->
+    <!-- BEGINTEMPLATE: Template code for an AppBar -->
+    <div class="customColor" id="jsAppBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdAdd',
+            label:'Add',
+            icon:'\uE107',
+            section:'global',
+            tooltip:'Add item'}">
+        </button>
+        <hr data-win-control="WinJS.UI.AppBarCommand" data-win-options="{type:'separator',section:'global'}" />-->
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdHomePage',
+            label:'Demo',
+            icon:'url(images/appbar_home.png)',
+            section:'global',
+            tooltip:'Under the Covers'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowHTML',
+            label:'HTML',
+            icon:'url(images/appbar_html5.png)',
+            section:'selection',
+            tooltip:'Show HTML Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowCSS',
+            label:'CSS',
+            icon:'url(images/appbar_css3.png)',
+            section:'selection',
+            tooltip:'Show CSS Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowJS',
+            label:'JavaScript',
+            icon:'url(images/appbar_js.png)',
+            section:'selection',
+            tooltip:'Show JavaScript Code'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'cmdShowExtra',
+            label:'Extras',
+            icon:'url(images/appbar_add.png)',
+            section:'selection',
+            tooltip:'Show Extras'}">
+        </button>
+    </div>
+    <!-- ENDTEMPLATE -->
+
+</body>
+</html>

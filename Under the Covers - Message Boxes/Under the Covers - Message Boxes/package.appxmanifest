@@ -15,8 +15,8 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <VisualElements DisplayName="Under the Covers: Message Boxes" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Under the Covers App Series is a collection of apps with how-to instructions on building Windows 8 Modern UI applications for beginner developers." ForegroundText="dark" BackgroundColor="#FFFFFF">
-        <DefaultTile ShowName="allLogos" WideLogo="images\widelogo.png" ShortName="UTC : Message Boxes" />
+      <VisualElements DisplayName="Under the Covers: Message Boxes" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Under the Covers - Message Boxes" ForegroundText="dark" BackgroundColor="#FFFFFF">
+        <DefaultTile ShowName="allLogos" WideLogo="images\WideLogo.png" ShortName="Message Boxes" />
         <SplashScreen Image="images\splashscreen.png" />
         <InitialRotationPreference>
           <Rotation Preference="landscape" />
